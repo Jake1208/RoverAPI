@@ -11,3 +11,9 @@ If a Sol Date is entered that doesn't match any records in the database, a 404 N
 
 # Executing a Query
 After cloning the repo to a new folder on your local machine, you can run the App inside Visual Studio. This will launch a Swagger UI on a LocalHost port inside your default web browser. Here you will see an interface that allows you to execute the Get Request and retrieve the Images and related data for the Sol Date entered into the solDate form field. to enter a number into the field, simply click the Try it out button towards to top right side of the screen. Aftrer doing so, the solDate field can be typed inside of. Once a number has been entered, clicking the Execute button will send the request and the response body will be visible directly below. Users should note that the solDate field is set to receive an Integer and will not execute if any other characters have been entered.
+
+Additonally, with the App running inside Visual Studio, you can execute queries inside POSTMAN by using the below URL:
+
+https://localhost:7203/api/rover/pics/solDate/1000
+
+You may also query different solDates by changing the number at the end of the URL to the Sol Date that you wish to access.
